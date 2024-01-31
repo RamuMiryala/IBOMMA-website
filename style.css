@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body
+{
+    background: linear-gradient(black, black);
+    height: 100vh;
+}
+.header
+{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    border-top: 5px solid yellow;
+    background: linear-gradient(rgba(76, 73, 73, 0.3), rgba(76, 73, 73, 0.3));
+}
+.header .left
+{
+    width: 40%;
+}
+.header .left img
+{
+    width: 30%;
+    margin: 20px 50px;  
+
+}
+.header .right 
+{
+    width: 60%;
+    float: right;
+    margin-top: 50px;
+}
+.header .right a 
+{
+    margin: 20px 30px;
+    text-decoration: none;
+    color: rgb(213, 210, 210);
+}
+.header .right i
+{
+    margin-right: 9px;
+}
+.right .search-btn 
+{
+    display: inline;
+}
+.right .search-btn input
+{
+   border: 0.5px solid gray;
+   background-color: transparent;
+  padding: 3px 25px;
+   border-radius: 15px;
+   color: #fff;
+}
+.right .search-btn button
+{
+   border: 0.5px solid gray;
+   background-color: yellow;
+   padding-left: 20px;
+   padding: 3px 20px;
+   border-radius: 15px;
+   
+}
+.section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+.section h1
+{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 500;
+}
+.section p
+{
+    color: #ebe6e6;
+    font-size: 15px;
+    margin-left: 90px;
+    margin-top: 35px;
+    
+}
+.container .row .col-2 .h-90
+{
+    height: 78%;
+}
+.container .row .col-2 .text-yellow
+{
+   color: yellow;
+   background-color: rgb(75, 74, 74);
+   display: inline;
+   font-size: 14px;
+}
+.d-flex
+{
+    background: linear-gradient(rgba(76, 73, 73, 0.3), rgba(76, 73, 73, 0.3));
+}
+.container .center .h-auto
+{
+    font-weight: 900;
+}
+.container .center input
+{
+    border: 0.5px solid gray;
+   background-color: transparent;
+   width: 80%;
+   padding: 3px 25px 3px;
+   margin-left:45px ;
+   border-radius: 15px;
+   margin-bottom: 30px;
+}
+.container .center form button
+{
+    border: 0.5px solid gray;
+   background-color: yellow;
+   padding-left: 20px;
+   padding: 3px 20px;
+   border-radius: 15px;
+}
+.footer
+{
+    width: 100%;
+    height: 65px;
+    margin-top: 50px ;
+    background: linear-gradient(rgba(76, 73, 73, 0.3), rgba(76, 73, 73, 0.3));
+    display: flex;
+}
+.footer .left{
+    float: left;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+.footer a , i
+{
+    text-decoration: none;
+    color: #bbaeae;
+    font-size: 14px;
+    font-weight: 100;
+}
+.footer a:hover
+{
+    cursor: pointer;
+    color: #857d7d;
+}
+.footer .right
+{
+    
+    margin-left: 855px;
+    margin-top: 20px;
+}
